@@ -1,4 +1,4 @@
-![Project Infinity X](https://raw.githubusercontent.com/ProjectInfinity-X/.github/main/profile/Infinity.png)
+![Project Infinity X](https://raw.githubusercontent.com/ProjectInfinity-X/.github/cf5db878157cff92251378562517ac4b1a358cbf/profile/Infinity.png)
 
 ## Requirements:
 Before you begin, ensure your system meets the following requirements:
