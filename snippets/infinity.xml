@@ -15,6 +15,11 @@
            fetch="https://gitea.com/projectinfinity-x"
            revision="QPR3" />
 
+  <!-- LFS -->
+  <remote name="lfs"
+          fetch="https://codeberg.org/LFS-dump"
+          revision="master" />
+
   <!-- Remote Device -->
   <project path="device/infinity/sepolicy" name="device_infinity_sepolicy" revision="QPR3" remote="infinity" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" revision="QPR3" remote="infinity" />
@@ -99,7 +104,7 @@
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="infinity" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="infinity" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="infinity" />
-  <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="infinity" />
+  <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="lfs" revision="master" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="infinity" />
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="infinity" />
   <project path="packages/apps/FaceUnlock" name="packages_apps_FaceUnlock" remote="infinity" />
