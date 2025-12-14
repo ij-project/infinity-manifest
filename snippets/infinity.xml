@@ -81,7 +81,7 @@
   <project path="packages/services/DeviceAsWebcam" name="packages_services_DeviceAsWebcam" groups="pdk-cw-fs,pdk-fs" remote="infinity" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="infinity" />
   <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="infinity" />
-  <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="infinity" clone-depth="1" />
+  <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="lfs" revision="master" />
   <project path="packages/modules/adb" name="packages_modules_adb" groups="pdk" remote="infinity" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" groups="pdk" remote="infinity" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="infinity" />
